@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "default_threshold": 0.7,
+    "supported_formats": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".gif",
+      ".bmp",
+      ".tiff",
+      ".tif"
+    ],
+    "output_folders": {
+      "clean": "clean_photos",
+      "sensitive": "sensitive_photos"
+    },
+    "logging": {
+      "log_file": "photo_cleaner.log",
+      "log_level": "INFO",
+      "verbose_by_default": false
+    },
+    "processing": {
+      "batch_size": 32,
+      "max_image_size": 2048,
+      "create_backup": true
+    }
+  },
+  "model_settings": {
+    "model_type": "simple",
+    "model_path": "models/",
+    "download_timeout": 300,
+    "use_gpu": false
+  },
+  "safety": {
+    "dry_run_by_default": false,
+    "confirm_before_move": false,
+    "create_report": true,
+    "backup_original_structure": true
+  },
+  "advanced": {
+    "skin_detection_threshold": 0.3,
+    "aspect_ratio_weight": 0.1,
+    "color_analysis_weight": 0.4,
+    "texture_analysis_weight": 0.3
+  }
+}

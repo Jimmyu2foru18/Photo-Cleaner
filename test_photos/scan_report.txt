@@ -1,0 +1,15 @@
+Simple Photo Cleaner Scan Report
+===================================
+
+Scan Date: 2025-05-25 14:54:14
+Threshold: 0.7
+
+Total Files: 1
+Clean Photos: 1
+Sensitive Photos: 0
+Errors: 0
+
+Sensitive Content: 0.0%
+
+NOTE: This simplified version uses basic heuristics.
+For production use, implement proper NSFW detection models.
